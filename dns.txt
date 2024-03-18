@@ -1,0 +1,30 @@
+;;
+;; Domain:     pyradials.com.
+;;
+
+;; NS Records
+pyradials.com.	86400	IN	NS	jarred.ns.cloudflare.com.
+pyradials.com.	86400	IN	NS	lady.ns.cloudflare.com.
+
+;; A Records
+pyradials.com.	1	IN	A	185.199.108.153
+pyradials.com.	1	IN	A	185.199.109.153
+pyradials.com.	1	IN	A	185.199.110.153
+pyradials.com.	1	IN	A	185.199.111.153
+
+;; AAAA Records
+pyradials.com.	1	IN	AAAA	2606:50c0:8001::153
+pyradials.com.	1	IN	AAAA	2606:50c0:8000::153
+pyradials.com.	1	IN	AAAA	2606:50c0:8003::153
+pyradials.com.	1	IN	AAAA	2606:50c0:8002::153
+
+;; CNAME Records
+mail.pyradials.com.	1	IN	CNAME	ghs.googlehosted.com.
+www.pyradials.com.	1	IN	CNAME	adambonneruk.github.io.
+
+;; MX Records
+pyradials.com.	1	IN	MX	10 alt4.aspmx.l.google.com.
+pyradials.com.	1	IN	MX	10 alt3.aspmx.l.google.com.
+pyradials.com.	1	IN	MX	5 alt1.aspmx.l.google.com.
+pyradials.com.	1	IN	MX	5 alt2.aspmx.l.google.com.
+pyradials.com.	1	IN	MX	1 aspmx.l.google.com.
